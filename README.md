@@ -57,3 +57,6 @@ Contenido sobre los Pokémon del Paradojo Pasado.
 ## REFERENCIAS
 
 Aquí van las referencias.
+
+<script src="search.js"></script>
+
