@@ -5,5 +5,12 @@ header {
   background-repeat: no-repeat;
   color: white; /* Asegura que el texto se vea sobre la imagen */
   text-shadow: 1px 1px 2px black;
+
+  min-height: 300px; /* o el valor que te guste */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
 }
 
