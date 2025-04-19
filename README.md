@@ -74,4 +74,5 @@ Aquí van las referencias.
   }
 </script>
 
+<script src="search.js"></script>
 
