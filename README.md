@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 <link rel="stylesheet" href="style.css">
 
 # ¡Bienvenidos a la página de Pokémon!
@@ -79,5 +80,3 @@ Aquí van las referencias.
     });
   }
 </script>
-
-
