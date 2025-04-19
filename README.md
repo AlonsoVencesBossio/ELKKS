@@ -11,7 +11,7 @@ Este repositorio está hecho con el tema de Github Pages **Minimal**.
 --------------------------------------------
 ## Categorías
 
-- [GENERAL](#general)
+- [🌍 Principal](https://alonsovencesbossio.github.io/ELKKS/?#general)
 - [ALOLA](#alola)
 - [GALAR](#galar)
 - [HISUI](#hisui)
