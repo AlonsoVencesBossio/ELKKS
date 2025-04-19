@@ -1,14 +1,14 @@
-# ¡Bienvenidos a la página de Pokémon!
+# ¡Bienvenidos a mi repositorio sobre los cambios de forma Pokémon!
 
-Este es un ejemplo usando el tema **Minimal** de GitHub Pages con un buscador y secciones específicas.
+Este repositorio está hecho con el tema de Github Pages **Minimal**.
 
-## Buscar en la página
+## Buscar categoría
 
 <form action="#" method="get" id="search-form">
   <input type="text" id="search-input" placeholder="Buscar..." oninput="searchContent()">
 </form>
 
-## Secciones
+## Categorías
 
 - [GENERAL](#general)
 - [ALOLA](#alola)
