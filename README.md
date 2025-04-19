@@ -8,6 +8,7 @@ Este repositorio está hecho con el tema de Github Pages **Minimal**.
   <input type="text" id="search-input" placeholder="Buscar..." oninput="searchContent()">
 </form>
 
+--------------------------------------------
 ## Categorías
 
 - [GENERAL](#general)
