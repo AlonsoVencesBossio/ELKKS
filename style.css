@@ -1,0 +1,9 @@
+header {
+  background-image: url('https://github.com/user-attachments/assets/ee306e90-dfbb-4683-87a8-cf43b11d7e95');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white; /* Asegura que el texto se vea sobre la imagen */
+  text-shadow: 1px 1px 2px black;
+}
+
