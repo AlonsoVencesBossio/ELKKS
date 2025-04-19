@@ -1,20 +1,14 @@
----
-layout: default
----
-
-<link rel="stylesheet" href="style.css">
-
 # ¡Bienvenidos a la página de Pokémon!
 
-Este es un ejemplo usando el tema **Cayman** de GitHub Pages con un buscador y secciones específicas.
+Este es un ejemplo usando el tema **Minimal** de GitHub Pages con un buscador y secciones específicas.
 
-## 🔍 Buscar en la página
+## Buscar en la página
 
 <form action="#" method="get" id="search-form">
-  <input type="text" id="search-input" placeholder="Buscar..." oninput="searchContent()" style="width: 100%; padding: 8px; font-size: 16px;">
+  <input type="text" id="search-input" placeholder="Buscar..." oninput="searchContent()">
 </form>
 
-## 📁 Secciones
+## Secciones
 
 - [GENERAL](#general)
 - [ALOLA](#alola)
@@ -64,5 +58,20 @@ Contenido sobre los Pokémon del Paradojo Pasado.
 
 Aquí van las referencias.
 
----
+<script>
+  function searchContent() {
+    const query = document.getElementById("search-input").value.toLowerCase();
+    const sections = document.querySelectorAll("h2, h3, p");
+    
+    sections.forEach((section) => {
+      const sectionText = section.textContent.toLowerCase();
+      if (sectionText.includes(query)) {
+        section.style.display = "block";
+      } else {
+        section.style.display = "none";
+      }
+    });
+  }
+</script>
+
 
