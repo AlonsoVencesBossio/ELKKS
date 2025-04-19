@@ -66,17 +66,3 @@ Aquí van las referencias.
 
 ---
 
-<script>
-  function searchContent() {
-    const query = document.getElementById("search-input").value.toLowerCase();
-    const allSections = document.querySelectorAll("h2, h3, p");
-
-    allSections.forEach(section => {
-      if (section.textContent.toLowerCase().includes(query)) {
-        section.style.display = "block";
-      } else {
-        section.style.display = "none";
-      }
-    });
-  }
-</script>
